@@ -17,13 +17,17 @@ You can deploy it locally or host it on GitHub Pages / Netlify / Vercel to view 
 * FAQ section styled with boxes
 * Footer with links, language selector, and country info
 * Clean CSS using `Poppins` and `Martel Sans` fonts
+* Responsive navigation bar with Netflix logo and sign-in button
+* Promotional hero text and email input for call to action
+* "More Reasons to Join" section with grid layout boxes
+* Fully responsive design for screens ranging from mobile (480px) to ultra-wide (3000px)
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-Netflix-Clone/
+Netflix_Clone/
 |-- index.html
 |-- style.css
 |-- assets/
@@ -42,8 +46,8 @@ Netflix-Clone/
 ## ⚖️ Tech Stack
 
 * **HTML5**
-* **CSS3**
-* **Google Fonts** (Poppins, Martel Sans)
+* **CSS3** (with media queries for responsiveness)
+* **Google Fonts** (`Poppins`, `Martel Sans`)
 
 ---
 
@@ -58,7 +62,7 @@ Netflix-Clone/
 2. Navigate into the project folder:
 
    ```bash
-   cd netflix-clone
+   cd Netflix_Clone
    ```
 
 3. Open `index.html` in your browser
@@ -69,9 +73,13 @@ Netflix-Clone/
 
 This project includes several media queries to ensure the layout adapts to:
 
-* Large screens (1440px+)
-* Tablets (768px - 1024px)
-* Mobile devices (<= 480px)
+* **<= 480px**: Mobile
+* **481px – 768px**: Tablet
+* **769px – 1024px**: Small desktops
+* **1025px – 1439px**: Medium screens
+* **1440px – 2559px**: Large screens
+* **2560px – 2999px**: Ultra-wide displays
+* **>= 3000px**: Super ultra-wide screens
 
 ---
 
@@ -81,6 +89,10 @@ This project includes several media queries to ensure the layout adapts to:
 * Connect email inputs with a backend service
 * Add animations for better UX
 * Replace static images with dynamic carousels
+* Add hover effects to images and buttons
+* Add transitions or animations for better UX
+* Add JavaScript functionality to validate the email input
+* Link to an actual backend for account creation (mock or real)
 
 ---
 
@@ -102,3 +114,5 @@ This project is for educational and portfolio purposes only. All Netflix logos a
 ## ✨ Acknowledgment
 
 Design inspired by [Netflix](https://www.netflix.com/) homepage.
+
+Built as part of the **Sigma Web Development Course by CodeWithHarry**.
